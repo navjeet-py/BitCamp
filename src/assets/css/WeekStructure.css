@@ -1,0 +1,121 @@
+.week-structure {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid rgba(177, 184, 252, 0.3);
+    border-radius: 1rem;
+    padding: 1.2rem 2rem;
+    margin-bottom: 1.5rem;
+
+    background-color: rgba(232, 223, 255, 0.3);
+    transition: 0.2s border ease;
+    /*min-width: 50rem;*/
+}
+
+.expanded-week {
+    border: 1px solid var(--black);
+}
+
+.week-structure .week-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.week-structure .week-number .week {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.week-structure .week-number button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--light-bg);
+    transform: rotate(90deg);
+    font-size: 1.2rem;
+    color: var(--black);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.expanded-week .week-number button {
+    transform: rotate(-90deg);
+}
+
+/*  CSS Code of WeekTopic Component */
+.week-topic {
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+}
+
+.expanded-week-topic {
+    margin-bottom: 1rem;
+
+}
+
+.week-topic svg {
+    margin-right: 0.5rem;
+    transition: 0.2s ease;
+}
+
+.week-topic .title {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+}
+
+.expanded-week-topic svg {
+    transform: rotate(90deg);
+}
+
+.week-topic .topic-desc-div {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+
+
+}
+
+.week-topic .topic-desc {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-left: 0.3rem;
+    width: 95%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-left: 2px solid var(--light-blue);
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .week-structure {
+        width: 75% !important;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .week-structure {
+        width: calc(95% - 3rem);
+    }
+
+    .week-topic .topic-desc{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .week-structure {
+        width: calc(98% - 3rem);
+    }
+}

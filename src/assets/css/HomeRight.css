@@ -1,0 +1,98 @@
+.home-right img {
+    width: 32rem;
+}
+
+.home-right .img-container {
+    position: relative;
+}
+
+.home-right .img-container img {
+    position: absolute;
+    top: 0;
+    transition: 0.4s ease;
+}
+
+.home-right .img-container .week4 {
+    position: unset;
+}
+
+.week1 {
+    opacity: 1;
+}
+
+.week2 {
+    opacity: 0;
+    transform: translateY(var(--shift));
+}
+
+.week3 {
+    opacity: 0;
+    transform: translateY(var(--shift));
+}
+
+.week4 {
+    opacity: 0;
+    transform: translateY(var(--shift));
+}
+
+
+.home-right .week-changer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.home-right .week-changer span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.home-right .week-changer button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--pink10);
+    font-weight: 600;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.home-right .week-changer button:hover {
+    background-color: var(--pink20);
+}
+
+.home-right .week-changer button.active-btn {
+    background-color: var(--pink);
+    color: white;
+    cursor: pointer;
+}
+
+.home-right .week-changer button.active-btn:hover {
+    background-color: var(--pink);
+}
+
+@media only screen and (max-width: 700px) {
+    .home-right {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .home-right img {
+        width: 95vw !important;
+    }
+
+    .home-right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+
+    }
+
+}

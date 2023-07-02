@@ -1,0 +1,43 @@
+.faq {
+    margin: 5rem 0 0;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.faq .questions {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 55%;
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .faq .questions {
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .faq .questions {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .faq .questions {
+        width: 95%;
+    }
+}
+
+.question {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 200ms ease;
+}

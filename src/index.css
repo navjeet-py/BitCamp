@@ -1,0 +1,40 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100vw!important;
+    /*overflow: hidden!important;*/
+}
+
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    /*user-select: none;*/
+    /*user-focus: none;*/
+}
+
+:root {
+    --black: #061D35;
+    --code-bg: #212121;
+    --orange: #F25001;
+    --yellow: #FDC525;
+    --pink: #f32170;
+    --pink10: rgba(243, 33, 112, 0.1);
+    --pink20: rgba(243, 33, 112, 0.2);
+    --pink40: rgba(243, 33, 112, 0.4);
+    --blue: #303781;
+    --light-blue: #B1B8FC;
+    --lightest-blue: #EDF3FD;
+    --light-bg: rgba(232, 223, 255, 1);
+    --shift: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    scroll-behavior: smooth;
+}

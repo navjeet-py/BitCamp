@@ -1,0 +1,151 @@
+.home-left h1 {
+    font-weight: 800;
+    font-family: Poppins;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+
+.home-left h1 svg {
+    height: 2.3rem;
+    width: 3.5rem;
+    transition: 0.2s ease-in-out;
+    margin-left: 10px;
+}
+
+.home-left h1 svg g path {
+    stroke-width: 3px;
+    stroke: var(--black);
+}
+
+.home-left .coding {
+    background: linear-gradient(to right, var(--pink),
+    #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    max-width: 15rem;
+    filter: drop-shadow(-1px -1px 1px var(--black));
+}
+
+.home-left .tagline1 {
+    margin-top: 20px;
+}
+
+.home-left .tagline {
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+.home-left .enroll-btn-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+
+.home-left .enroll-btn {
+    height: 2.5rem;
+    width: 9rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid var(--black);
+    font-size: 0.9rem;
+    background-color: var(--black);
+    color: white;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+
+}
+
+.home-left .enroll-btn a {
+    color: white;
+}
+
+
+.home-left .enroll-btn:hover {
+    background-color: white;
+    color: var(--black);
+}
+
+.home-left .enroll-btn:hover a {
+    color: var(--black);
+}
+
+
+.home-left .structure-btn {
+    height: 2.5rem;
+    width: 9rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.08);
+    /*background-color: transparent;*/
+    color: var(--black);
+    border-radius: 0.8rem;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+}
+
+.home-left .structure-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home-left .instructors {
+    margin-top: 1.5rem;
+}
+
+.home-left .instructors svg {
+    height: 10px;
+    width: 1rem;
+    transition: 0.3s ease-in;
+}
+
+.home-left .instructors svg g path {
+    stroke-width: 2.5px;
+    stroke: var(--pink);
+}
+
+.home-left .instructors a {
+    color: var(--pink);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.home-left .instructors p {
+    font-weight: 300;
+}
+
+.home-left .instructors .instructors-tagline {
+    font-weight: 300;
+    margin-top: 0.4rem;
+}
+
+.home-left .instructors a:hover svg {
+    transform: translateX(0.5rem);
+}
+
+.home-left .instructors a:hover {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 700px) {
+    .home-left{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}

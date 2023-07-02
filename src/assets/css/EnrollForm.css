@@ -1,0 +1,78 @@
+.enroll-form-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.enroll-form .tagline {
+    text-align: center;
+}
+
+.enroll-form .tagline strong {
+    cursor: pointer;
+}
+
+.enroll-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.enroll-form input {
+    height: 2.5rem;
+    width: 27rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid rgba(6, 29, 53, 0.4);
+    margin-bottom: 0.8rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    outline: none;
+    max-width: 80%;
+    font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.enroll-form input:focus {
+    border-color: rgba(6, 29, 53, 1);
+}
+
+.enroll-form button {
+    height: 2.5rem;
+    width: 29rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--black);
+    padding: 0 1rem;
+    font-size: 1rem;
+    outline: none;
+    max-width: calc(80% + 2rem);
+    background: var(--black);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.enroll-form button:hover{
+    background: white;
+    color: var(--black);
+}
+
+.submit-status{
+    text-align: center;
+    margin-top: 0.8rem;
+    font-weight: 500;
+    font-size: 1.rem;
+}

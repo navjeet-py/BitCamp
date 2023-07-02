@@ -1,0 +1,165 @@
+
+.enroll-banner {
+    border-bottom: 2px solid var(--blue);
+    min-height: 20rem;
+    background: var(--lightest-blue);
+
+}
+
+
+.enroll-banner .banner-container {
+    width: 78%;
+    margin: 0 auto;
+    display: flex;
+    padding: 3rem 0 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.enroll-banner .banner-text {
+    width: 40%;
+}
+
+.enroll-banner .banner-heading {
+    font-size: 2.5rem;
+}
+
+.enroll-banner .banner-heading span {
+    background: linear-gradient(to right, var(--pink),
+    #cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    filter: drop-shadow(-1px -1px 1px var(--black));
+
+}
+
+.enroll-banner .banner-para {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.enroll-banner .whatsapp-btn {
+    height: 2.8rem;
+    width: 9rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid var(--black);
+    font-size: 0.9rem;
+    background-color: var(--black);
+    color: white;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    transition: 0.2s ease-in;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.enroll-banner .whatsapp-btn:hover {
+    background-color: white;
+    color: var(--black);
+}
+
+.enroll-banner .whatsapp-btn:hover svg path {
+    fill: var(--black);
+
+}
+
+.enroll-banner .whatsapp-btn svg path {
+    transition: 0.2s ease-in;
+
+}
+
+.enroll-banner .whatsapp-btn svg {
+    height: 1rem;
+    width: 1rem;
+
+
+}
+
+.enroll-banner .banner-img-container {
+    width: 40%;
+}
+
+.enroll-banner .banner-img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .enroll-banner .banner-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .enroll-banner .banner-text {
+        width: 100%;
+    }
+
+    .enroll-banner .banner-container {
+        width: 70%;
+        padding-top: 3rem;
+    }
+
+
+    .enroll-banner .banner-text {
+        width: 100%;
+    }
+
+    .enroll-banner .banner-heading {
+        font-size: 2.5rem;
+    }
+
+    .heading-break-1, .heading-break-2 {
+        display: none;
+    }
+
+    .enroll-banner .banner-para {
+        font-size: 1.1rem;
+    }
+
+    .enroll-banner .banner-img-container {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .enroll-banner .banner-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .enroll-banner .banner-text {
+        width: 100%;
+    }
+
+    .enroll-banner .banner-container {
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+    .enroll-banner .banner-text {
+        width: 100%;
+    }
+
+    .enroll-banner .banner-heading {
+        font-size: 2rem;
+    }
+
+    .enroll-banner .banner-para {
+        font-size: 1.1rem;
+    }
+
+    .enroll-banner .banner-img-container {
+        width: 90%;
+    }
+}
